@@ -1,4 +1,4 @@
-const number = 1 + Math.floor(Math.random()*10);
+const number = 1 + Math.floor(Math.random()*100);
 let numberOfGuesses = 10;
 
 function check(guessedNumber) {
