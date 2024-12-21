@@ -36,14 +36,14 @@ button.addEventListener('click', function(event) {
         }
 
         else if (guessedNumber < number) {
-            result.textContent = "The number you guessed is lesser than the correct answer.";
+            result.textContent = `The number you guessed ${guessedNumber} is lesser than the correct answer.`;
             
             result.style.color = "red";
             
         }
 
         else {
-            result.textContent = "The number you guessed is greater than the correct answer.";
+            result.textContent = `The number you guessed ${guessedNumber} is greater than the correct answer.`;
 
             result.style.color = "red";
         }
